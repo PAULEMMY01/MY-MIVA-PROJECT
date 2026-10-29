@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Emmanuel Paul Ogah student portfolio and academic management website">
+    <title>Contact | Emmanuel Paul Ogah</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body><a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="container nav-wrap"><a class="brand" href="index.html">EPO<span></span></a><button
+                class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+            <nav class="nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a
+                    href="projects.html">Projects</a><a href="planner.html">Academic Planner</a><a href="contact.html"
+                    aria-current="page">Contact</a></nav>
+        </div>
+    </header>
+    <main id="main">
+        <section class="page-banner">
+            <div class="container"><span class="eyebrow">GET IN TOUCH</span>
+                <h1>Contact Me</h1>
+                <p>Have a question or collaboration idea? Send a message.</p>
+            </div>
+        </section>
+        <section class="section container">
+            <div class="contact-layout">
+                <div>
+                    <h2>Let's connect</h2>
+                    <p>I welcome opportunities to collaborate on academic, web development and cybersecurity projects.
+                    </p>
+                    <p>Location: Nigeria</p>
+                    <p class="note">This demonstration form validates inputs in your browser. It does not transmit
+                        messages to a server.</p>
+                </div>
+                <form id="contact-form" class="card" novalidate><label for="contact-name">Full name</label><input
+                        id="contact-name" name="name" required autocomplete="name"><label for="contact-email">Email
+                        address</label><input id="contact-email" name="email" type="email" required
+                        autocomplete="email"><label for="contact-phone">Phone number (digits only)</label><input
+                        id="contact-phone" name="phone" type="tel" inputmode="numeric" required
+                        autocomplete="tel"><label for="contact-message">Message</label><textarea id="contact-message"
+                        name="message" rows="5" required></textarea>
+                    <p id="form-feedback" role="status" aria-live="polite"></p><button class="btn"
+                        type="submit">Validate message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer-inner"><span>© <span id="year"></span> Emmanuel Paul Ogah</span><span>Built with
+                HTML · CSS · JavaScript</span></div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
